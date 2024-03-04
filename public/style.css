@@ -1,0 +1,19 @@
+.list-group-item {
+  display: flex;
+  align-items: center;
+}
+
+.username {
+  font-weight: bold;
+  color: #fff;
+  background-color: #f30ef7;
+  padding: 5px 10px;
+  border-radius: 16px;
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .col-md-8 { /* Target the row containing chat history and text box */
+    margin-bottom: 20px; /* Add margin-bottom on smaller screens */
+  }
+}
