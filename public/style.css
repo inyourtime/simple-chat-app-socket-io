@@ -13,7 +13,8 @@
 }
 
 @media (max-width: 768px) {
-  .col-md-8 { /* Target the row containing chat history and text box */
+  .col-md-8 {
+    /* Target the row containing chat history and text box */
     margin-bottom: 20px; /* Add margin-bottom on smaller screens */
   }
 }
